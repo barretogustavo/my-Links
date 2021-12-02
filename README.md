@@ -3,7 +3,8 @@ Ao invés de usar o linktree, preferi criar meu próprio site de links e hosped�
 
 # Link para acesso
 
-bit.ly/gustavobarreto
+<a href=“bit.ly/gustavobarreto“>Ver site de links</a>
+
 
 # Imagem do projeto
 
