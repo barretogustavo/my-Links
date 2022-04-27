@@ -76,6 +76,14 @@
     background-color: #b45a0f;
 }
 
+#coder{
+    background-color: #353434 !important;
+}
+
+#coder a{
+    color: #FFF !important;
+}
+
 footer{
     width: 100%;
     height: 30px;
