@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    height: 90vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,28 +22,21 @@ body {
 }
 
 header {
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
     position: fixed;
-    top: -2px;
     background-color: #fafafa;
 }
 
 header nav {
     max-width: 940px;
-    min-width: 450px;
     height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 10px;
-}
-
-header nav {
-    width: 50%;
 }
 
 header img {
@@ -74,11 +67,9 @@ header ul li {
 
 .container {
     max-width: 940px;
-    width: 100%;
-    padding-left: 10px;
-    height: 85vh;
-    padding-bottom: 100px ;
-    padding-left: 50px;
+    width: 100vw;
+    height: 80vh;
+    padding-bottom: 100px;
 }
 
 #first-section {
@@ -92,7 +83,7 @@ header ul li {
 }
 
 .box-area{
-    width: min-content;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -152,6 +143,7 @@ h2::selection {
 }
 
 .button-area {
+    width: 100%;
     display: flex;
     flex-direction: row;
     margin-top: 50px;
@@ -189,57 +181,6 @@ h2::selection {
                 -5px -5px 2px #ffffff;
     color: #f87b15;
     transition: ease .2s;
-}
-
-@media (max-width: 500px) {
-    
-    .container {
-        padding-left: 10px;
-        margin-top: 300px;
-        padding-bottom: 200px ;
-    }
-
-    #first-section {
-        flex-direction: column-reverse;
-        margin-top: 0px;
-    }
-
-    .box-area {
-        align-items: center;
-    }
-
-    h1 {
-        font-size: 2rem;
-        margin-top: 0px;
-    }
-
-    .box-area p {   
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-
-    .box-area img {
-        width: 12rem;
-    }
-
-    .image-box {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .button-area {
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-    }
-
-    #second-section {
-        margin-top: -300px;
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;
-    }
 }
 
 #second-section {
@@ -542,6 +483,105 @@ a {
 
 @media (max-width: 500px) {
 
+    
+    header {
+        width: 100vw;
+    }
+
+    header nav {
+        width: 80vw;
+        margin-bottom: 10px;
+    }
+
+    .container {
+        margin-top: 350px;
+        padding-bottom: 200px ;
+    }
+
+    #first-section {
+        flex-direction: column-reverse;
+        margin-top: 0px;
+    }
+
+    .box-area {
+        width: 95vw;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 2rem;
+        margin-top: 0px;
+    }
+
+    .box-area p {   
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .box-area img {
+        width: 12rem;
+    }
+
+    .image-box {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button-area {
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #second-section {
+        padding-left: 0;
+        margin-left: 0;
+        margin-top: -300px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    .second-container {
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .second-container h2 {
+        font-size: 1.7rem;
+    }
+
+    .second-container p {
+        font-size: 1rem;
+    }
+
+    #third-section {
+        padding-left: 0;
+        margin-left: 0;
+        width: 100vw;
+    }
+
+    .modal-venda {
+        width: 90vw;
+    }
+
+    .third-container{
+        padding: 0;
+    }
+
+    #fourth-section {
+        padding-left: 0;
+        margin-left: 0;
+        height: auto;
+        width: 100vw;
+    }
+    
+    .fourth-container {
+        width: 100vw;
+        padding-left: 0;
+    }
+
     .venda-area {
         justify-content: flex-start;
     }
@@ -551,7 +591,7 @@ a {
     }
 
     .card {
-        width: 350px;
+        width: 75vw;
         height: auto;
         margin-bottom: 15px;
     }
