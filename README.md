@@ -1,4 +1,4 @@
-# My link - Clone funcional do linktree
+# My link - Meu site de links úteis
 Ao invés de usar o linktree, preferi criar meu próprio site de links e hospedá-lo gratuitamente no github pages.
 
 # Link para acesso
