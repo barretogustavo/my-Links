@@ -609,3 +609,19 @@ a {
         margin-right: 15px;
     }
 }
+
+/* mail form */
+
+#mc_embed_signup form {
+    background-color: #f87b15;
+    border-radius: 16px;
+}
+
+#mc_embed_signup form h2 {
+    color: #000;
+}
+
+#mc_embed_signup .button {
+    background-color: #fff !important;
+    color: #000 !important;
+}
